@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="wingstud.com.bookingmaster.activitys.activityss.SavedHotels"
+    tools:showIn="@layout/activity_saved_hotels">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/nosaved" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No Saved Hotels"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/startbrowsing"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/green_dark"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Start Browsing"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

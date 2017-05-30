@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BookingMaster</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="square_red_name">square_red</string>
+    <string name="square_blue_name">square_blue</string>
+    <string name="square_green_name">square_green</string>
+    <string name="transition_reveal1">transition_reveal1</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Rs">\u20B9</string>
+    <string name="Rs_500">\u20B9 500</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_city">SearchCity</string>
+    <string name="title_activity_hotels">Hotels</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_my_account">MyAccount</string>
+    <string name="title_activity_my_booking">MyBooking</string>
+    <string name="title_activity_saved_hotels">SavedHotels</string>
+    <!--text-->
+    <string name="text_india_code">+91</string>
+    <string name="text_india">India</string>
+    <string name="text_title">Booking Master</string>
+    <string name="text_welcom">Welcome to BookingMaster</string>
+    <!--hint-->
+    <string name="hint_your_phone_number">Your phone number</string>
+
+</resources>

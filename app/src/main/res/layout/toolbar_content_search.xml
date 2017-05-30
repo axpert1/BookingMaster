@@ -1,0 +1,18 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+    <EditText
+        android:id="@+id/searchedittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Search by locality,landmark or city"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textSize="14dp" />
+</android.support.v7.widget.Toolbar>

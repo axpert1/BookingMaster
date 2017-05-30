@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardslider2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="true">
+
+
+
+
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageviewhome"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:maxHeight="120dp"
+                    app:layout_heightPercent="10%"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:id="@+id/text_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_heightPercent="10%"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:text="hello"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </android.support.percent.PercentRelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+</android.support.percent.PercentRelativeLayout>

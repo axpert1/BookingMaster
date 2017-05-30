@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- For CircleImageView -->
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean"></attr>
+        <attr name="border_width" format="dimension"></attr>
+        <attr name="border_color" format="color"></attr>
+        <attr name="shadow" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference"></attr>
+    </declare-styleable>
+
+    <!-- For Ripple View -->
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+    </declare-styleable>
+
+    <!-- start of For BottomSheet -->
+
+    <declare-styleable name="BottomSheet">
+        <attr name="bottomSheetStyle1" format="reference" />
+        <attr name="bs_dialogBackground" format="color|reference" />
+        <attr name="bs_listStyle" format="reference" />
+        <attr name="bs_dividerColor" format="color|reference" />
+        <attr name="bs_numColumns" format="integer" />
+        <attr name="bs_titleTextAppearance" format="reference" />
+        <attr name="bs_listItemTitleTextAppearance" format="reference" />
+        <attr name="bs_gridItemTitleTextAppearance" format="reference" />
+        <attr name="bs_moreDrawable" format="reference" />
+        <attr name="bs_moreText" format="string" />
+        <attr name="bs_closeDrawable" format="reference" />
+        <attr name="bs_collapseListIcons" format="boolean" />
+    </declare-styleable>
+    <!-- end of For BottomSheet -->
+</resources>
